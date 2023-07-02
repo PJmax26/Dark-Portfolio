@@ -1,0 +1,78 @@
+@media (max-width: 767px) {
+    .home{
+        padding: 3rem 0;
+    }
+
+    .home .home-content{
+        margin: 3rem 0;
+    }
+
+    .home .fig{
+        margin-top: 5rem;
+    }
+
+    .about-text{
+        margin-top: 5rem;
+    }
+
+    .skills{
+        padding: 0 0;
+        margin: 0 0;
+    }
+
+    .services .service{
+        margin-left: 0.5rem;
+    }
+
+    .service .service-text{
+        margin: 3rem 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .btn-container{
+        margin-left: 3rem;
+    }
+
+    .skills .skills-container{
+        margin-top: 5rem;
+        padding: 1rem;
+    }
+
+    .service-header .header{
+        text-align: start;
+        padding: 1rem;
+    }
+
+    .service-header .sub-header{
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .fig-container{
+        width: 15rem;
+        height: 15rem;
+    }
+    
+    .fig-box{
+        width: 15rem;
+        height: 15rem;
+        bottom: 1rem;
+        right: 1rem;
+        font-size: 10rem;
+    }
+
+    .about .about-img img{
+        border-radius: 50%;
+        border: 0.5rem solid var(--dark);
+        width: 20rem;
+        height: 20rem;
+    }
+}
+
+@media (max-width: 280px) {
+    .skill-box h3{
+        font-size: 1rem;
+    }
+}
